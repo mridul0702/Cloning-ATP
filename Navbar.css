@@ -88,3 +88,24 @@ nav li{
     background-color: white;
     color: blue;
 }
+.classroom{
+    justify-content: space-between;
+
+}
+.card-section{
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.description{
+    flex-basis: 55%;
+}
+.description h1{
+    line-height: 3rem;
+}
+.first-card{
+    flex-basis: 30%;
+    background-color: lightblue;
+    height: 350px;
+    border-radius: 8px;
+    padding: 15px 5px 0px 15px;
+}
