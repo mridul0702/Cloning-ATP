@@ -83,6 +83,7 @@ nav li{
     border: 1px solid blue;
     border-radius: 10px;
     transition: 0.5s ease-out;
+    width:fit-content;
 }
 .secondary-button:hover{
     background-color: white;
@@ -144,4 +145,261 @@ nav li{
 .date-in-card{
     gap: 40px;
     margin-top: 50px;
+}
+
+/*Practice-corner Section*/
+.practice-corner{
+    justify-content: space-between;
+}
+.own-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.practice-img{
+    display: flex;
+    flex-basis: 50%;
+    height: 500px;
+    border: 2px solid red;
+    justify-content: center;
+}
+.practice-img img{
+    height: 100%;
+}
+.resources{
+    flex-basis: 45%;
+}
+.box-1{
+    padding: 20px;
+    height: 50%;
+    border: 2px solid maroon;
+    border-radius: 10px;
+}
+.box-in-rows{
+    margin-top: 10%;
+}
+
+/*Study Corner*/
+.star-batches{
+    border-radius: 10px;
+    flex-basis: 50%;
+    height: 300px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    line-height: 1.7rem;
+}
+.section{
+    margin-top: 20px;
+}
+.book-image{
+    margin-left: 20px;
+}
+.study-description{
+    margin-left: 20px;
+}
+.advantages{
+    margin-left: 20px;
+}
+.image-of-boy-girl{
+    width: 50%;
+    height: 100%;
+}
+.button{
+    margin-top: 20px;
+}
+.button span{
+    margin-left: 20px;
+    color:blue;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease-in;
+}
+.button span:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+}
+
+/*Advantages*/
+.faayde{
+    gap: 30px;
+}
+.boxes{
+    height: 360px;
+    flex-basis: 30%;
+    border-radius: 10px;
+    background-color: yellow;
+    position: relative;
+}
+.content{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+#box-1{
+    background-color: peachpuff;
+}
+#box-2{
+    background-color: lightgreen;
+}
+#img{
+    height: 40px;
+}
+.read-more span{
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 15px;
+    bottom: 10px;
+    transition: 0.2s ease-in;
+}
+.read-more span:hover{
+    cursor:pointer;
+    transform: scale(1.2);
+}
+
+
+/*Stellar Faculty Section*/
+.stellar-faculty{
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.same-height-img{
+    height: 50%;
+}
+.vineet-sir-image{
+    height: 100%;
+}
+.vineet-sir-image,.amit-sir-image,.ankit-sir-image,.surya-sir-image,.poonam-maam-image,.sonu-sir-image{
+    position: relative;
+    flex-basis: 20%;
+}
+.box-vineet{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    top: 40%;
+    right: 0;
+    transition: 0.5s ease-out;
+    transform-origin: right;
+    display: none;
+}
+.vineet-sir-image:hover .box-vineet{
+    display: block;
+}
+.amit-sir-image:hover .box-vineet{
+    display: block;
+}
+.ankit-sir-image:hover .box-vineet{
+    display: block;
+}
+.surya-sir-image:hover .box-vineet{
+    display: block;
+}
+.poonam-maam-image:hover .box-vineet{
+    display: block;
+}
+.sonu-sir-image:hover .box-vineet{
+    display: block;
+}
+
+/*Love Us Section*/
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px;
+    grid-gap: 10px;
+    margin-top: 20px;
+}
+.grid-item {
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+}
+
+#cell-1,#cell-2{
+    grid-row: 1/3;
+    position: relative;
+    height: 300px;
+}
+#cell-3{
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+#cell-5{
+    background-color: darkgoldenrod;
+    color:white;
+    justify-content: center;
+    align-items: center;
+}
+.content-in-grid{
+    gap: 20px;
+}
+#cell-4{
+    grid-row: 3/5;
+    position: relative;
+}
+#cell-6{
+    grid-row: 2/4;
+    background-color: blue;
+}
+#cell-7{
+    background-color: green;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+#cell-3 img,#cell-5 img,#cell-7 img{
+    height: 50px;
+}
+#cell-8,#cell-9{
+    grid-row: 4/6;
+    position: relative;
+}
+.box-in-grid{
+    margin-top: 15px;
+    gap: 10px;
+    position: absolute;
+    bottom: 15px;
+}
+.logo img{
+    height: 60px;
+    border-radius: 50%;
+}
+
+/*Expert Guidance Section*/
+.flex-start{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.expert-info{
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 10px;
+    line-height: 2rem;
+}
+.expert-info span{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 5px;
+    margin-top: 30px;
+    border-radius: 30px 30px 30px 30px;
+    transition: 0.5s ease-out;
+}
+.expert-info span:hover{
+    background-color: white;
+    color: green;
+    box-shadow: 0 0 10px black;
 }
